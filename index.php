@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class Scheduling System</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand fw-bold" href="index.php">Class Scheduling System</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="schedules.php">Schedules</a></li>
+<li class="nav-item"><a class="nav-link" href="add.php">Add Schedule</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<header class="hero text-center">
+<div class="container">
+<h1 class="display-5 fw-bold">Class Scheduling System</h1>
+<p class="lead mb-4">Create, view, update and manage class schedules in one place.</p>
+<a href="schedules.php" class="btn btn-light btn-lg me-2">Open System</a>
+<a href="add.php" class="btn btn-outline-light btn-lg">Add Schedule</a>
+</div>
+</header>
+
+<section id="features" class="container py-5">
+<h2 class="text-center mb-4">Features</h2>
+<div class="row g-4">
+<div class="col-md-3"><div class="card h-100 text-center p-3">
+<h5>Add</h5><p class="text-muted">Create a new class schedule.</p>
+<a href="add.php" class="btn btn-sm btn-primary mt-auto">Add Schedule</a>
+</div></div>
+<div class="col-md-3"><div class="card h-100 text-center p-3">
+<h5>View</h5><p class="text-muted">See and search all schedules.</p>
+<a href="schedules.php" class="btn btn-sm btn-primary mt-auto">View Schedules</a>
+</div></div>
+<div class="col-md-3"><div class="card h-100 text-center p-3">
+<h5>Edit</h5><p class="text-muted">Update a schedule when something changes.</p>
+<a href="schedules.php" class="btn btn-sm btn-primary mt-auto">Edit a Schedule</a>
+</div></div>
+<div class="col-md-3"><div class="card h-100 text-center p-3">
+<h5>Delete</h5><p class="text-muted">Remove schedules you no longer need.</p>
+<a href="schedules.php" class="btn btn-sm btn-primary mt-auto">Manage Schedules</a>
+</div></div>
+</div>
+</section>
+
+<section id="about" class="bg-white py-5">
+<div class="container text-center">
+<h2 class="mb-3">About</h2>
+<p class="text-muted mb-1">Final project for Web Systems Technologies.</p>
+<p class="text-muted mb-0">Built with PHP, MySQL, HTML, CSS and Bootstrap 5.</p>
+</div>
+</section>
+
+<footer class="text-center text-muted py-4 small">
+Class Scheduling System &copy; <?= date("Y") ?> | JM Jagorin
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
