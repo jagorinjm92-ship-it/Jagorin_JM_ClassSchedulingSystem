@@ -1,3 +1,17 @@
-.card { border: 0; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
-table th { white-space: nowrap; }
-.hero { background: linear-gradient(135deg, #0d6efd, #6610f2); color: #fff; padding: 90px 0; }
+/* Adds a shadow and removes the border of the card. */
+.card {
+    border: 0; /* Removes the border. */
+    box-shadow: 0 2px 8px rgba(0,0,0,.08); /* Adds a light shadow. */
+}
+
+/* Styles the table headings. */
+table th {
+    white-space: nowrap; /* Keeps heading text on one line. */
+}
+
+/* Styles the hero section of the website. */
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #6610f2); /* Creates a blue-to-purple background. */
+    color: #fff; /* Makes the text white. */
+    padding: 90px 0; /* Adds space above and below the content. */
+}
